@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href ="css/style.css">
+
+</head>
+<body>
+    <div id="banner">
+        <h3>Cambridge Parking Tickets</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="tabs" class="col-sm-3">
+                <ul id="tab-links">
+                    <li><a href="#tabs-1">Ticket Breakdown</a></li>
+                    <li><a href="#tabs-2">Description</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <p><strong>Tickets:</strong> 470,743 or ~25k/month <br><strong>Fines:</strong> $12,530,125</br></p>
+                </div>
+                <div id="tabs-2">
+                    <h6>About</h6>
+                    <p>Created for a course in transportation planning. Based on 470,743 tickets given out by the City of Cambridge from January 2014 through July 2015. The original dataset is available <a href="https://data.cambridgema.gov/Traffic-Parking-and-Transportation/Cambridge-Parking-Tickets-for-the-period-January-2/vnxa-cuyr">here</a>.</p>
+                    <h6>Legend</h6>
+                    <p>Most ticketed, by percentile:</p>
+                    <div id="legend-box"></div>
+                </div>
+
+            </div>
+            <div id="right-side" class="col-sm-9">
+                <div class="row">
+                    <div id="map"></div>
+                </div>
+                <div class="row">
+                    <div id="info-box">
+                        <table id="info-table">
+                            <tr>
+                                <td>Street:</td>
+                                <td id="street-name"></td>
+                            </tr>
+                            <tr>
+                                <td>Tickets:</td>
+                                <td id="ticket-total"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><button id="button-reset">Return</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="time-bars"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/d3.v3.min.js"></script>
+    <script src="https://rawgit.com/gka/d3-jetpack/master/d3-jetpack.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

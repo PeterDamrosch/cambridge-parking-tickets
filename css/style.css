@@ -1,0 +1,170 @@
+/* - - - - BANNER - - - -*/
+
+#banner {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 0.5px;
+    padding-left: 5px;
+    margin-top: -20px;
+    background-color: #023858;
+    color: white;
+    font-family: sans-serif;
+}
+
+h3 {
+    margin-top:20px;
+    margin-bottom:5px;
+}
+
+h6 {
+    font-weight: bold
+}
+
+/* - - - - CONTAINER - - - -*/
+
+.container-fluid {
+    padding-right: 0px
+}
+
+#right-side {
+    width: 1031px;
+    padding-right:0px;
+    margin-right: 0px;
+}
+.row {
+    padding-right: 0px
+}
+
+/* - - - - TABS - - - -*/
+
+#button-reset {
+    margin-top: 20px;
+}
+
+.ui-widget-content a {
+    color: #0645AD
+}
+#tabs {
+    width:300px;
+    height: 675px;
+    font-size: 12px;
+}
+
+    /*----- Tab Links -----*/
+
+    #tab-links {
+        font-size: 10px
+    }
+
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+
+    .tab {
+        display:none;
+    }
+
+    .tab.active {
+        display:block;
+    }
+
+td {
+    padding-right: 15px
+}
+
+/* - - - - MAP - - - -*/
+#map {
+    height: 500px;
+    padding-right: 0px;
+}
+
+svg {
+    position: relative;
+}
+
+path {
+    stroke-width: 3px;
+    fill: none
+}
+
+.group1 {
+    stroke: #f1eef6;
+}
+.group2 {
+    stroke: #bdc9e1;
+}
+
+.group3 {
+    stroke: #74a9cf;
+}
+
+.group4 {
+    stroke: #2b8cbe;
+}
+
+.group5 {
+    stroke: #023858;
+}
+
+.highlightedLine {
+    stroke: brown
+}
+
+.highlightedLine2 {
+    stroke: brown
+}
+
+/* - - - - INFO BOX NEXT TO TIME BARS - - - -*/
+
+#info-box {
+    width: 270px;
+    height: 175px;
+    border: 1px solid #aaaaaa;
+    border-left: none;
+    border-right: none;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+#info-table {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#street-name {
+    text-align: right;
+}
+
+#ticket-total {
+    text-align: left;
+}
+
+
+/* - - - - TIME BARS - - - -*/
+#time-bars {
+
+    width: 776px;
+    height:175px;
+    border: 1px solid #aaaaaa;
+    border-left: none;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+#bar-chart {
+    display: block;
+}
+
+.bars {
+    fill:#023858
+}
+
+.axis {
+    font-size: 12px
+}
+
+
